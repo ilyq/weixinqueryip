@@ -1,0 +1,7 @@
+<!--pages/index/index.wxml-->
+<view class="root" style="height: {{height}}rpx">
+    <input class="ip-input" bindinput="ipValue" placeholder="请输入要查询的域名或IP地址" />
+    <button type="primary" class="query-button" bindtap="queryIp">查询</button>
+    <view class="ip-value">{{ipValue}}</view>
+    <view class="location">{{location}}</view>
+</view>

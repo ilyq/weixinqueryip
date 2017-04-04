@@ -1,0 +1,28 @@
+/* pages/index/index.wxss */
+.root {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ip-input {
+    border: 1px solid gainsboro;
+    margin-left: 100rpx;
+    margin-right: 100rpx;
+    height: 60rpx;
+    font-size: 45rpx;
+}
+
+.query-button {
+    margin-top: 30rpx;
+}
+
+.ip-value {
+    margin-top: 30rpx;
+}
+
+.location {
+    margin-top: 30rpx;
+}
